@@ -4,6 +4,6 @@ import numpy as np
 
 
 x = np.arange(0,4*np.pi,0.1)   # start,stop,step
-y = np.log10(x) + np.cos(x)
+y = np.log2(x) + np.cos(x)
 plt.plot(x, y)
 plt.show()
